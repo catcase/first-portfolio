@@ -1,0 +1,39 @@
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: fantasy;
+  margin: 0;
+  padding: 15px;
+}
+
+.ul {
+list-style-type: none;
+
+}
+
+li {
+  float: left;
+}
+
+li.nav {
+  display: block;
+  width: 100px;
+  color: #000000;
+}
+
+.header {
+  padding: 15px;
+}
+
+.content {
+  background-color: #54ffac;
+  color: #000000;
+  font-family: fantasy;
+  font-size: 24px;
+  padding: 10px;
+}
+
+.experience {
+  background-color: #50bcd5;
+  padding: 15px;
+}
