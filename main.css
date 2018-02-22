@@ -1,39 +1,167 @@
 body {
   background-color: #ffffff;
   color: #000000;
-  font-family: fantasy;
-  margin: 0;
+  background-image: url("http://i67.tinypic.com/jilzxg.jpg");
+  background-attachment: fixed;
+  margin-top: 40px;
+  margin-left: 350px;
+  margin-right: 350px;
+  margin-bottom: 40px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+.background {
+  background-color: #dddddd;
   padding: 15px;
 }
 
-.ul {
-list-style-type: none;
-
+hr {
+  text-align: center;
+  border-top: 3px dashed black;
+  height: 1px;
+  width: 620px;
 }
 
-li {
+.img {
   float: left;
+  opacity: 1;
+  margin-right: 10px;
+  border: 3px dashed black;
+  height: 150px;
+  width: 150px;
 }
 
-li.nav {
-  display: block;
-  width: 100px;
-  color: #000000;
+.about img:hover {
+  opacity: 0.5;
 }
 
-.header {
+.about h3 {
+  text-align: center;
+  padding: 20px;
+  text-decoration: underline;
+}
+
+.about p {
+  text-align: left;
+}
+
+.experience h3 {
+  text-align: center;
   padding: 15px;
+  text-decoration: underline;
 }
 
-.content {
-  background-color: #54ffac;
+.experience h4 {
+  display: list-item;
+  list-style-position: inside;
+  list-style-type: circle;
+  text-decoration: underline;
+}
+
+.skills {
+  text-align: center;
+}
+
+.skills h3 {
+  padding: 15px;
+  text-decoration: underline;
+}
+
+.html {
+  background-color: #ffffff;
   color: #000000;
-  font-family: fantasy;
-  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  border: 3px dashed black;
+  width: 50px;
   padding: 10px;
+  display: inline-block;
 }
 
-.experience {
-  background-color: #50bcd5;
+.css {
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+  font-weight: bold;
+  border: 3px dashed black;
+  width: 50px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.projects h3 {
+  text-align: center;
   padding: 15px;
+  text-decoration: underline;
+}
+
+.boxes {
+  text-align: center;
+}
+
+.project1 {
+  background-color: #ffffff;
+  color: #000000;
+  width: 120px;
+  padding: 15px;
+  border: 3px dashed black;
+  display: inline-block;
+}
+
+.project1 h4 {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.project2 {
+  background-color: #ffffff;
+  color: #000000;
+  width: 120px;
+  padding: 15px;
+  border: 3px dashed black;
+  display: inline-block;
+}
+
+.project2 h4 {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.nav {
+  text-align: center;
+}
+
+.nav h1 {
+  text-shadow: 0px 5px 10px #666666;
+}
+
+.nav ul {
+  list-style: none;
+  text-align: center;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.nav li {
+  float: left;
+  margin-right: 15px;
+  margin-left: -5px;
+}
+
+.nav li a {
+  background-color: #666666;
+  color: #000000;
+  text-align: center;
+  border: 3px solid black;
+  text-decoration: none;
+  width: 15px;
+  margin: 0;
+  padding: 5px 25px;
+}
+
+li a:hover {
+  color: #ffffff;
 }
